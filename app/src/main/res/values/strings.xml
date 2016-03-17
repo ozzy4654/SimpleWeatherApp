@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">WeatherCodeChallenge</string>
+    <string name="gps">Forecast Finder would like to use your location to find your local forecast</string>
+    <string name="not_now">Not Now</string>
+    <string name="enable">Enable</string>
+    <string name="search_hint">60611 or Kenosha, WI</string>
+    <string name="message_no_location_permission_snackbar">
+        Please allow Forecast Finder permission to access your location in order to look up the forecast.</string>
+    <string name="settings">Settings</string>
+    <string name="granted">Permission Granted</string>
+    <string name="deny">Permission Denied</string>
+    <string name="app_title">Forecast Finder</string>
+    <string name="base_api_url">http://api.worldweatheronline.com/free/v2</string>
+    <string name="api_key">754386e0879e0d222dac1866a93d5</string>
+    <string name="invalid_search">Invalid Search</string>
+    <string name="main_act_sub_title">Enter below a Zip Code, City, State, Country</string>
+    <string name="main_act_title">Search For The Forecast</string>
+    <string name="btn_search">Look Up Forecast</string>
+    <string name="search_error_msg">No search results found or a network error has occurred. \n\nPlease try another search.</string>
+    <string name="low_temp_title">Low: </string>
+    <string name="humid">Humidity: </string>
+    <string name="visable">Visibility: </string>
+    <string name="lock_on">LOCK ON TARGET?</string>
+    <string name="felsius">Celsius</string>
+    <string name="currently_title">Currently: </string>
+    <string name="feels_like_title">Feels Like: </string>
+    <string name="h_temp">High: </string>
+    <string name="precip_title">Precipitation: </string>
+
+
+    <string name="extremee_code">284</string>
+    <string name="sunny_code">113</string>
+    <string name="partly_cloudy_code">116</string>
+
+    <string-array name="rain_codes">
+        <item>176</item>
+        <item>263</item>
+        <item>266</item>
+        <item>281</item>
+        <item>293</item>
+        <item>296</item>
+        <item>299</item>
+        <item>302</item>
+        <item>306</item>
+        <item>308</item>
+        <item>352</item>
+        <item>356</item>
+        <item>359</item>
+    </string-array>
+
+    <string-array name="snow_codes">
+        <item>179</item>
+        <item>182</item>
+        <item>227</item>
+        <item>230</item>
+        <item>362</item>
+        <item>365</item>
+        <item>317</item>
+        <item>320</item>
+        <item>323</item>
+        <item>326</item>
+        <item>329</item>
+        <item>332</item>
+        <item>335</item>
+        <item>338</item>
+        <item>368</item>
+        <item>371</item>
+        <item>374</item>
+        <item>377</item>
+        <item>392</item>
+        <item>395</item>
+    </string-array>
+
+    <string-array name="freezing_rain_codes">
+        <item>185</item>
+        <item>311</item>
+        <item>284</item>
+        <item>314</item>
+        <item>350</item>
+    </string-array>
+
+    <string-array name="fog_codes">
+        <item>143</item>
+        <item>248</item>
+        <item>260</item>
+    </string-array>
+
+    <string-array name="cloudy_codes">
+        <item>119</item>
+        <item>122</item>
+    </string-array>
+
+    <string-array name="thunder_codes">
+        <item>200</item>
+        <item>289</item>
+        <item>386</item>
+    </string-array>
+
+
+</resources>

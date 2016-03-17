@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/backgroun"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Switch
+            android:id="@+id/celsiusToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edge_padding"
+            android:layout_marginBottom="@dimen/edge_padding"
+            android:layout_gravity="end"
+            android:text="@string/felsius"
+            android:checked="false"/>
+    <FrameLayout
+            android:id="@+id/fragFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/edge_padding"
+            android:layout_marginEnd="@dimen/edge_padding">
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/map_icon"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/sumarryItem"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:foreground="?android:attr/selectableItemBackground"
+              android:layout_marginTop="@dimen/edge_padding"
+              android:layout_marginBottom="@dimen/edge_padding"
+              android:layout_marginEnd="@dimen/edge_padding">
+
+
+    <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/edge_padding"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sub_text"
+            />
+    <ImageView
+            android:id="@+id/weatherIcon"
+            android:layout_width="@dimen/weather_icon"
+            android:layout_height="@dimen/weather_icon"
+            android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+        <TextView
+                android:id="@+id/highTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sub_text"
+                />
+        <TextView
+                android:id="@+id/lowTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sub_text"
+                />
+    </LinearLayout>
+
+</LinearLayout>

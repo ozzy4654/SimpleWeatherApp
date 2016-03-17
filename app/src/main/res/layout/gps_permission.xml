@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="@dimen/map_icon"
+            android:tint="@color/colorPrimary"
+            android:src="@drawable/earth1"/>
+
+
+    <TextView
+            android:id="@+id/sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/lock_on"
+            android:textSize="23sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            />
+
+    <TextView
+            android:id="@+id/explainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/edge_padding"
+            android:layout_marginRight="@dimen/edge_padding"
+            android:layout_marginBottom="@dimen/map_icon"
+            android:gravity="center"
+            android:textSize="@dimen/sub_text"
+            android:text="@string/gps"
+            android:textColor="@android:color/black"/>
+
+    <Button
+            android:id="@+id/enable_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_layout_height"
+            android:layout_marginTop="@dimen/menu_padding"
+            android:layout_marginLeft="@dimen/edge_padding"
+            android:layout_marginRight="@dimen/edge_padding"
+            android:layout_marginBottom="@dimen/profile_layout_height"
+            android:background="@color/colorAccent"
+            android:text="@string/enable"
+            android:textColor="@android:color/white"/>
+
+</LinearLayout>
